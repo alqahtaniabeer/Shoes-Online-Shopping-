@@ -1,0 +1,297 @@
+body {
+	font: 400 15px lato, montserrat, sans-serif;
+}
+
+h3 {
+	text-align: center;
+	margin: 10px;
+}
+
+/* Stat NavBar Style*/
+.navbar_custom {
+	background-color: #1083c6 !important;
+}
+
+/* change brand and text color*/
+.navbar_custom .navbar-brand {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* chang the link color*/
+.navbar_custom .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* change the color of active or hovered link*/
+
+.navbar_custom .nav-item.active .nav-link,
+.navbar_custom .nav-item:hover .nav-link {
+	color: #16B64A;
+}
+
+/* dropdown style*/
+
+.dropdown-menu {
+	background-color: #1083c6;
+}
+ 
+ .dropdown-menu a{
+	background-color: #1083c6;
+}
+
+ .dropdown-menu>li>a {
+ 	color: #fff;
+}
+
+/*add-to-cart*/
+.add-to-cart * {
+	color: #fff;
+	padding: 10px;
+}
+
+ .add-to-cart a:hover {
+	text-decoration: none;
+	color: #16B64A;
+ }
+
+ /* End nav Bar */
+
+ /*start section 1*/ 
+.section1 {
+ 	margin-top: 115px;
+}
+
+ul#product-header-slide li img {
+ 	height: auto;
+ 	max-width: 100%;
+ 	display: block;
+}
+
+.lSSlideOuter 
+
+/*End section 1*/
+
+/* Start Section 2*/
+
+.main-haeding {
+	background-color: #ffffff;
+	display: inline-block;
+	width: 100%;
+	color: #1f2343;
+	padding: 0px 25px;
+}
+
+ul#topproduct-slide img {
+	width: 100%;
+}
+
+.topproduct-slide-section {
+	width: 90%;
+	margin: 25px;
+	background-color: #f1f1f1;
+}
+
+.section2 {
+	background-color: #f1f1f1;
+	display: inline-block;
+	width: 100%;
+}
+
+.main-haeding h3{
+	font-weight: 700;
+}
+
+#topproduct-slide li {
+	text-align: center;
+	background-color: #ffffff;
+
+}
+
+#topproduct-slide li>div {
+	width: calc(100% - 30px);
+	margin: 10px auto;
+}
+
+#topproduct-slide li label {
+	color: #29272c;
+	font-size: 100%;
+	margin: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+#topproduct-slide li label del {
+	color: #57565b;
+}
+
+/*End Section 2*/
+
+/*Start Section 3*/
+
+.section3, .section3 .main-haeding {
+	background-color: #ffffff;
+	color: #1f2343;	
+}
+
+.section3 .select-menu ul li {
+	width: 20%;
+	margin: auto -5px auto auto;
+	text-align: center;
+	font-size: 100%;
+	word-wrap: break-word;
+	line-height: 1em;
+	background-color: #ffffff;
+	vertical-align: middle;
+	padding: 16px;
+	font-size: 18px;
+	position: relative;
+	overflow: hidden;
+	max-height: 50px;
+}
+
+.section3 .select-menu ul li.active, .section3 .select-menu ul li:hover {
+	background-color: #f76f6f;
+	color: #fff;
+}
+
+.section3 .select-menu {
+	margin: 30px auto;
+	box-shadow: 1px 1px 10px #f6f6f6;
+}
+
+.section3 .select-menu ul li::before {
+	content: "";
+	position: absolute;
+	top: 100%
+	left: 50%;
+	margin-left: -12px
+	border-width: 12px;
+	border-style: solid;
+	border-color: #f76f6f transparent transparent transparent;
+}
+
+.items-menu li * {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 1em;
+	word-wrap: break-word;
+}
+
+.items-menu>li>div  {
+	border: 1px solid #efefef;
+	padding: 10px;
+	background-color: #fff;
+	width: 200px;
+	margin: auto;
+}
+
+.items-menu>li>div>div>img {
+	max-width: 100px;
+	margin: auto;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+}
+
+.items-menu>li>div>div {
+	width: 130px;
+	margin: auto;
+	height: 130px;
+	position: relative;
+}
+
+.items-menu>li>div>span {
+	color: #f76f6f;
+	font-size: 30px;
+	line-height: 1em;
+	margin: 10px auto 5px;
+}
+
+.items-menu>li {
+	margin: 10px 5px;
+}
+
+.items-selectmenu .items-menu {
+	display: none;
+}
+
+.items-selectmenu .items-menu.active {
+	display: block;
+}
+
+#project li {
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	width: 23.5%;
+}
+
+ #project li:nth-child(3n) /* this is i say when you see pic 1 2 3 then add margin at right*/ {
+ 	margin-right: 0;
+ }
+ #project li img {
+ 	width: 100%;
+ }
+
+.wrapper {
+	width: 100%;
+	max-width: 1200%;
+	margin: 0 auto;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*End Section 3*/
+
+/*Start Footer */
+
+footer {
+	display: inline-block;
+	background-color: #1c4e7f;
+	width: 100%;
+	color: #fff;
+	padding: 30px;
+	margin-bottom: -5px;
+}
+
+footer p {
+	margin: auto;
+	text-align: center;
+}
+
+
+footer ul {
+	list-style: none;
+	padding: 30px;
+	margin: 30px;
+	text-align: right;
+}
+
+footer ul li {
+	width: 25px;
+	text-align: center;
+	display: inline-block;
+	height: 25px;
+	background-image: url(../i);
+	background-size: cover;
+	margin: auto 5px;
+}
+
+li .fb-icon {
+	background-position: 118px 0;
+}
+
+li .tw-icon {
+	background-position: 35px 0;
+}
+
+li .gp-icon {
+	background-position: 90px 0;
+
+}
+/*End Footer*/
+
